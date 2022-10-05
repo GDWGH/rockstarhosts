@@ -35,8 +35,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd 
-          mkdir /gui
-          cd /gui
+          mkdir gui
+          cd gui
           git clone https://github.com/GDWGH/rockstarhosts.git
           cd rockstarhosts
           git checkout hosts-source
