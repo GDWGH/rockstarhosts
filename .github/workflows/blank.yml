@@ -41,5 +41,5 @@ jobs:
           cd rockstarhosts
           git checkout hosts-source
           npm install
-          sh build.sh
+          bash build.sh
           ls output
